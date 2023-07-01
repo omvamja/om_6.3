@@ -1,0 +1,19 @@
+//Q3,
+#include<stdio.h>
+#include<conio.h>
+
+void main (){
+int n,a,s;
+clrscr();
+
+printf("enter number ");
+scanf("%d",&n);
+
+for(a=1;a<=10;a++){
+   s=a*n;
+printf("%d*%d=%d\n",n,a,s);
+
+}
+
+printf ("sum is %d",s);
+getch();}
